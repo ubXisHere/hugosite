@@ -1,91 +1,91 @@
 @font-face {
     font-family: "Sen";
-    src: url("/fonts/Sen.ttf");
+    src: url("../fonts/Sen.ttf");
 }
 
 @font-face {
     font-family: "Pacifico";
-    src: url("/fonts/Pacifico.ttf");
+    src: url("../fonts/Pacifico.ttf");
 }
 
 @font-face {
     font-family: "SenBold";
-    src: url("/fonts/Sen-ExtraBold.ttf");
+    src: url("../fonts/Sen-ExtraBold.ttf");
 }
 
 @font-face {
     font-family: "BungeeShade";
-    src: url(/fonts/BungeeShade.ttf);
+    src: url(../fonts/BungeeShade.ttf);
 }
 
 @font-face {
     font-family: Monoton;
-    src: url(/fonts/Monoton.ttf);
+    src: url(../fonts/Monoton.ttf);
 }
 
 @font-face {
     font-family: MajorMono;
-    src: url(/fonts/MajorMonoDisplay.ttf);
+    src: url(../fonts/MajorMonoDisplay.ttf);
 }
 
 @font-face {
     font-family: JuliusSans;
-    src: url("/fonts/JuliusSansOne.ttf");
+    src: url("../fonts/JuliusSansOne.ttf");
 }
 
 @font-face {
     font-family: Montez;
-    src: url("/fonts/Montez.ttf");
+    src: url("../fonts/Montez.ttf");
 }
 
 @font-face {
     font-family: TwinkleStar;
-    src: url(/fonts/TwinkleStar.ttf);
+    src: url(../fonts/TwinkleStar.ttf);
 }
 
 @font-face {
     font-family: Megrim;
-    src: url(/fonts/Megrim.ttf);
+    src: url(../fonts/Megrim.ttf);
 }
 
 @font-face {
     font-family: Codystar;
-    src: url(/fonts/Codystar.ttf);
+    src: url(../fonts/Codystar.ttf);
 }
 
 @font-face {
     font-family: CutiveMono;
-    src: url(/fonts/CutiveMono.ttf);
+    src: url(../fonts/CutiveMono.ttf);
 }
 
 @font-face {
     font-family: Raleway;
-    src: url(/fonts/Raleway.ttf);
+    src: url(../fonts/Raleway.ttf);
 }
 
 @font-face {
     font-family: RalewayDots;
-    src: url(/fonts/RalewayDots.ttf);
+    src: url(../fonts/RalewayDots.ttf);
 }
 
 @font-face {
     font-family: RalewayLight;
-    src: url(/fonts/Raleway-Light.ttf);
+    src: url(../fonts/Raleway-Light.ttf);
 }
 
 @font-face {
     font-family: RalewayThin;
-    src: url(/fonts/Raleway-Thin.ttf);
+    src: url(../fonts/Raleway-Thin.ttf);
 }
 
 @font-face {
     font-family: MeowScript;
-    src: url(/fonts/MeowScript.ttf);
+    src: url(../fonts/MeowScript.ttf);
 }
 
 @font-face {
     font-family: SendFlowers;
-    src: url(/fonts/SendFlowers.ttf);
+    src: url(../fonts/SendFlowers.ttf);
 }
 
 

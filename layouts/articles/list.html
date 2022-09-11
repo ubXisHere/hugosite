@@ -10,7 +10,7 @@
             {{ with .Params.Tags }}<span class="tags">
                 <b>Tags: </b>{{ range . }}<a href="{{.}}">{{.}}</a>{{end}}
             </span>{{end}} 
-            {{with .Params.cover }}<div class="cover"><img src='{{replace . "baseurl" $bsur}}' alt=""></div>{{end}}
+            {{with .Params.cover }}<div class="cover"><img src='{{replace . "{baseurl}" $bsur}}' alt=""></div>{{end}}
             <hr> 
         </div>
         {{end}}

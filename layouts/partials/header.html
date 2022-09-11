@@ -1,10 +1,11 @@
+{{$bsurl := .Site.BaseURL}}
 <header>
     <div class="header-grid">
-        <div class="header-grid-item"><h1 class="page-title"><a href="{{.Site.BaseURL}}" class="clear"><img src="{{.Site.Params.logo}}" alt="ubX">'s Site</h1></a></div>
+        <div class="header-grid-item"><h1 class="page-title"><a href="{{$bsurl}}" class="clear"><img src="{{.Site.Params.logo}}" alt="ubX">'s Site</h1></a></div>
         <div class="header-grid-item"></div>
         <div class="header-grid-item bc">
             {{ range .Site.Data.links }}
-                <a href="{{.link}}">
+                <a href="{{$bsurl}}/{{.link}}">
                 {{.title}}
                 </a>
             {{ end }}

@@ -2,7 +2,7 @@
 title: "20 Anime Recommendations For Anime Beginners"
 date: 2022-04-19T21:33:49+05:30
 tags: [Anime, Recommendatons]
-cover: baseurl/images/anime-2.jpg
+cover: "{baseurl}/images/anime-2.jpg"
 description: ""
 draft: false
 author: ubX

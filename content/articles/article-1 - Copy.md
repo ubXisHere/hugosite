@@ -2,7 +2,7 @@
 title: "How to be a better Human in 2 Minutes?"
 date: 2022-04-17T16:36:16+05:30
 tags: []
-featured_image: ""
+cover: "{baseurl}/images/2_sabito.png"
 description: ""
 author: Akshay
 ---

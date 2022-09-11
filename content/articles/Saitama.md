@@ -2,7 +2,7 @@
 title: "Saitama from OPM is Indeed STRONG"
 date: 2022-09-04T21:52:20+05:30
 tags: []
-cover: "baseurl/images/opm.png"
+cover: "{baseurl}/images/opm.png"
 description: ""
 draft: false
 ---

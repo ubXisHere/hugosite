@@ -4,7 +4,7 @@ date: 2022-04-18T11:51:16+05:30
 draft: false
 author: Akshay
 Tags: ["trash"]
-cover: "/images/hsl.webp"
+cover: "{baseurl}/images/hsl.webp"
 ---
 
 # LOL
