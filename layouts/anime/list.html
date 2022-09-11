@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="main">
+    <div class="grid-list">
+        {{$bsurl := .Site.BaseURL}}
+    {{range .Pages.ByParam "release" }}
+        {{$pg := .}}
+        <div class="dets"><span class="title">{{.Title}}</span>
+        {{range first 5 .Params.chars }}<div class="thumb-img"><a href="{{$bsurl}}/anime/images/{{$pg.Params.i}}/thumbnails/{{.name}}.jpg" data-fslightbox="{{$pg.Title}}"><img width="100px" height="100px" src="{{$bsurl}}/anime/images/{{$pg.Params.i}}/thumbnails/{{.name}}.jpg" alt="{{.name}}"></a></div>{{end}} </div>
+        <div class="stud">{{.Params.release}}</div>
+        <div class="chars">dud</div>
+    {{end}}
+    </div>
+</div>
+{{end}}

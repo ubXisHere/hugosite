@@ -1,0 +1,2 @@
+{{$bsurl := .Site.BaseURL}}
+<a href="{{replace (.Get "src") ".baseurl." $bsurl}}" data-fslightbox="images" data-alt="{{.Get "alt"}}" class="image"><img src="{{replace (.Get "src") ".baseurl." $bsurl}}"></a>

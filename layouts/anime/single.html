@@ -1,0 +1,31 @@
+{{ define "main" }}
+<div class="header at-bg">
+<div class="header-content">
+    In <a href="/{{.Page.Section}}">{{.Page.Section }}</a>.
+    <div class="title">{{.Title}}</div>
+    <br>
+    {{ if .Params.author }}
+        by <b>{{.Params.author}}</b>,
+    {{ end }}
+    Published On {{ time.Format ":date_full" .Date }}
+    </div>
+</div>
+
+<div class="main">
+    {{ if .Params.chars }}
+    <h1>Characters:</h1>
+    
+    <div class="char-grid"></div>
+    {{ $i:= .Params.i }}
+    {{/* {{range sort .Params.chars "name" }} */}}
+    {{- range  .Params.chars -}}
+    <a href="#{{.name}}" class="char">
+        <img src="{{.Site.BaseURL}}/anime/images/{{$i}}/thumbnails/{{.name}}.jpg" alt="" class="char-img">
+        {{.name}}</a>
+    {{ end }}
+    {{ end }}
+    {{/*{{ $.Param "chars" }}*/}}
+    {{.Content}}
+</div>
+
+{{end}}

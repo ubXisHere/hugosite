@@ -1,0 +1,24 @@
+{{ define "main" }}
+<div class="header at-bg">
+<div class="header-content">
+    In <a href="/articles">Articles</a>.
+    <div class="title">{{.Title}}</div>
+    <br>
+    {{ if .Params.author }}
+        by <b>{{.Params.author}}</b>,
+    {{ end }}
+    Published On {{ time.Format ":date_full" .Date }}
+    </div>
+</div>
+
+<div class="main w-1">
+    <div id="toc">
+        <h2>Table Of Contents</h2>
+        {{.TableOfContents}}
+    </div>
+
+    {{.Content}}
+
+</div>
+
+{{end}}

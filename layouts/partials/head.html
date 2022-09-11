@@ -1,0 +1,6 @@
+{{ $sass := resources.Get "sass/main.scss" }}
+{{ $style := $sass | resources.ToCSS | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
+<link rel="stylesheet" href="/lightbox/lightbox.min.css">
+<script src="/lightbox/lightbox.min.js"></script>
+<title>{{.Title}} | {{.Site.Title}}</title>

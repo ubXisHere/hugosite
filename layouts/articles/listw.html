@@ -1,0 +1,19 @@
+{{define "main"}}
+{{$bsur := .Site.BaseURL}}
+<div class="main">
+    <div class="grid 2x">
+        {{range sort .Pages .Params.Date }}
+        <div class="grid-item">
+            <span>{{ time.Format ":date_full" .Date }}</span>
+            <br /><a href="{{.Permalink}}" class="clear item-title">{{.Title}}</a>
+            <hr class="titl">
+            {{ with .Params.Tags }}<span class="tags">
+                <b>Tags: </b>{{ range . }}<a href="{{.}}">{{.}}</a>{{end}}
+            </span>{{end}} 
+            {{with .Params.cover }}<div class="cover"><img src='{{replace . "baseurl" $bsur}}' alt=""></div>{{end}}
+            <hr> 
+        </div>
+        {{end}}
+    </div>
+</div>
+{{end}}

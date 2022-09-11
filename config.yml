@@ -1,0 +1,28 @@
+BaseURL: ''
+languageCode: 'en-us'
+title: "ubX's Site"
+
+taxonomies:
+    tag: "tags"
+    category: "categories"
+    genre: "genres"
+
+markup:
+  highlight:
+    style: swapoff
+    tabwidth: 6
+  goldmark:
+    renderer:
+      unsafe: true
+  tableofcontents:
+    startLevel: 1
+    endLevel: 2
+
+copyright: "© ubX's Team"
+
+# Custom Variables:
+params:
+    logo: "/images/logo-ultra-high.png"
+  
+paginate: 2
+PaginatePath: ""

@@ -1,0 +1,16 @@
+<div class="bottom-wid-container">
+    <div class="bottom-widgets">
+        {{ range .Site.Data.bottomwdgts }}
+    
+        <div class="bottom-widget"><h2 class="btm-wdgt-head">{{.heading | markdownify}}</h2>
+            <hr>
+            <div class="btmcont">{{ .content | markdownify }}</div>
+            {{ if .desc }}
+            <hr>
+            <div class="btmdesc">{{.desc | markdownify }}</div>
+            {{ end }}
+        </div>
+    
+        {{ end }}
+    </div>
+</div>

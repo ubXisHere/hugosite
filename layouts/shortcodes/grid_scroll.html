@@ -1,0 +1,11 @@
+{{ $add := .Get "add" }}
+
+<div class="scroll-x">
+{{range first 5 (where .Site.RegularPages.ByDate "Section" $add)  }}
+<a class="clear item" href="{{ .RelPermalink }}" {{with .Params.cover }}{{ $cover:= split . "|" }}style="background-image: url('{{ if eq (index $cover 0) "l" }}{{- $.Site.BaseURL -}}{{ end }}{{ index $cover 1 }}'); color:red;backround-color:black;"{{end}}>
+    <div class="content">
+        <div class="item-title">{{ .Title }}</div>
+    </div>
+    </a>
+{{end}}
+</div>
